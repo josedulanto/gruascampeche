@@ -1,0 +1,148 @@
+body > .container { margin-top: 20px; margin-bottom: 20px; }
+
+body { background: url(../img/bg.jpg) #fff repeat-x; }
+
+a { color: #cc3333; }
+a:hover { color: black; }
+
+#header {
+	background: url(../img/bgTop.gif) no-repeat;
+	padding-top: 10px;
+	height: 340px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#logo {
+	background: url(../img/bgLogo.png) no-repeat bottom;
+	float: left;
+	margin-left: -20px;
+	clear: both;
+}
+
+#logo a {
+	background: url(../img/logoGruasCampeche.png) no-repeat bottom;
+	width: 315px;
+	height: 130px;
+	display: block;
+}
+
+#module-debajoLogo {
+	clear: both;
+	color: white;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+#menu {
+	background: #eee;
+	display: inline-block;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	margin-top: 45px;
+	padding: 5px 8px;
+}
+
+/* MENU PILLS */
+#menu.nav-tabs > li > a, #menu.nav-pills > li > a {
+	color: #333;
+	font-weight: bold;
+	margin-right: 5px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+#menu.nav-tabs > li > a:hover, #menu.nav-pills > li > a:hover {
+	background:#d4d4d4;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+}
+
+/* MENU PILLS - ACTIVE */
+#menu.nav-pills > .active > a, #menu.nav-pills > .active > a:hover, #menu.nav-pills > .active > a:focus {
+	color: white;
+	background-color: #c33;
+}
+
+
+/* CONTENT */
+#content { padding: 30px 0px; -webkit-	box-shadow: inset 0px 35px 30px -30px rgba(0, 0, 0, 1); box-shadow: inset 0px 35px 30px -30px rgba(0, 0, 0, 1); }
+#content div.itemHeader h2.itemTitle { color: #cc3333; font-size: 60px; }
+
+body {
+ font-family: 'Ubuntu', sans-serif;
+}
+
+/* FOOTER */
+#footer {
+	border-top: 1px solid #ccc;
+	padding: 20px 0px;
+	background: #f6f8f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f6f8f9 0%, #e5ebee 47%, #d7dee3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f6f8f9), color-stop(47%,#e5ebee), color-stop(100%,#d7dee3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f6f8f9 0%,#e5ebee 47%,#d7dee3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f6f8f9 0%,#e5ebee 47%,#d7dee3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f6f8f9 0%,#e5ebee 47%,#d7dee3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f6f8f9 0%,#e5ebee 47%,#d7dee3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#d7dee3',GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+#footer h3 {
+	font-size: 24.5px;
+	text-shadow: 1px 1px 5px #d4d4d4;
+	color: #333;
+	border-bottom: 1px solid #d4d4d4;
+	margin-bottom: 20px;
+	width: 80%;
+}
+
+/* MODULE DERECHA LOGO */
+#module-derechaLogo .moduletable.slideshow-intro ul.nav { position: absolute; top: 0px; z-index: 99999; width: 100%; }
+#module-derechaLogo .moduletable_menu { position: relative; top: 22px; }
+#module-derechaLogo .moduletable_menu #menu { margin: 0; }
+#module-derechaLogo .moduletable_menu #menu li:last-child a { margin-right: 0px; }
+
+/* MODULE SERVICIOS TOP */
+#module-serviciosTopRight .servicio-24hrs {
+	color: white;
+	text-transform: uppercase;
+	padding: 0px 10px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 110%;
+	text-shadow: 1px 1px 5px black;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+
+/* MODULE SERVICIOS BOTTOM */
+#module-serviciosBottom { text-align: center; }
+#module-serviciosBottom .row .span4:first-child { margin-left: 10px; }
+
+/* MODULES CONTENT TOP */
+#modules-content-top { background: url(../img/bgMetal.jpg) repeat; border-top: 10px solid #fefefe; padding: 30px 0 20px 0; }
+
+/* MODULE CONTENT BOTTOM */
+#modules-content-bottom { background: #c33; border-top: 10px solid white; border-bottom: 10px solid #d4d4d4; color: white; }
+#modules-content-bottom h1 {
+	background: #333;
+	color: white;
+	font-size: 150%;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #333;
+}
+
+/* MODULE PIE DERECHA */
+.wk-twitter .content { font-size: 16px; line-height: 20px; margin: 10px 0; }
+
+#footer .formResponsive .formHorizontal .rsform-block { margin-bottom: 0px; }
+#footer .formResponsive .formHorizontal .formControlLabel { width: 70px; }
+#footer .formResponsive .formHorizontal .formControls { margin-left: 80px; }
+#footer .formResponsive .formHorizontal .formControls input,
+#footer .formResponsive .formHorizontal .formControls textarea { width: 170px; }
+#footer h2 { color: #cc3333; }

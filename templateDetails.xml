@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>Gruas Campeche</name>
+    <version>2.0</version>
+	<creationDate>Julio 2013</creationDate>
+	<author>www.wasabi.mx // Ing. José Antonio Dulanto</author>
+	<authorEmail>hola@wasabi.mx</authorEmail>
+	<authorUrl>www.wasabi.mx</authorUrl>
+	<copyright><![CDATA[2010 &copy; <a href="http://www.wasabi.mx">Wasabi MX</a> &reg;. Prohibida su uso sin permiso explicito.]]></copyright>
+	<description>
+	<![CDATA[
+	Dise&ntilde;o web para Gr&uacute;as Campeche. Para mayor informaci&oacute;n visite <a href="http://www.wasabi.mx">www.wasabi.mx</a>
+	]]>
+    </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+
+		<filename>js/html5.js</filename>
+		<filename>js/bootstrap.min.js</filename>
+		<filename>js/default.js</filename>
+
+		<filename>css/bootstrap.min.css</filename>
+		<filename>css/bootstrap-responsive.min.css</filename>
+		<filename>css/default.css</filename>
+
+		<filename>img/bg.jpg</filename>
+		<filename>img/bgLogo.png</filename>
+		<filename>img/bgMetal.jpg</filename>
+		<filename>img/bgTop.gif</filename>
+		<filename>img/logoGruasCampeche.png</filename>
+	</files>
+	<positions>
+		<position>debajoLogo</position>
+		<position>derechaLogo</position>
+		<position>arribaLogo</position>
+		<position>mainMenu</position>
+		<position>metal</position>
+		<position>minimalista</position>
+		<position>pieDerecha</position>
+		<position>pieCentro</position>
+		<position>pieIzquierda</position>
+		<position>serviciosBottom</position>
+		<position>serviciosBottomLeft</position>
+		<position>serviciosBottomRight</position>
+		<position>serviciosTop</position>
+		<position>serviciosTopLeft</position>
+		<position>serviciosTopRight</position>
+	</positions>
+<params>
+<param name="showComponent" type="radio" default="1" label="Show Component" description="Show/Hide the component output">
+<option value="0">No</option>
+<option value="1">Yes</option>
+</param>
+</params>
+</install>
